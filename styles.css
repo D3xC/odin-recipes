@@ -3,10 +3,26 @@ html {
 }
 
 body {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
-main {
-    
+img.gumbo {
+    width: 325px;
+    height: 400px;
+} 
+
+img.shrimpgrits {
+    width: 200px;
+    height: auto;
+}
+
+img.chili {
+    width: 300px;
+    height: auto;
+}
+
+img.crabcakes {
+    width: 300px;
+    height: auto;
 }
