@@ -1,48 +1,102 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    background-color: #9FA4C4;
+    font-size: 16px;
+    /* background-color: #9FA4C4; */
     color: #3E4365;
+    margin: 0 auto;
 }
 
 main {
-    width: 50%;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+  height: 100vh;
 }
 
-img.gumbo {
-    width: 325px;
-    height: 400px;
-} 
-
-img.shrimpgrits {
-    width: 200px;
-    height: auto;
+header {
+  margin: auto;
+  height: 10%;
 }
 
-img.chili {
-    width: 300px;
-    height: auto;
+header h1 {
+  text-align: center;
+  font-family: 'Combo', cursive;
+  font-size: 64px;
+  color: #3E4365;
 }
 
-img.crabcakes {
-    width: 300px;
-    height: auto;
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 75vh;
+  /* padding: 75px 0; */
 }
 
-a {
-    text-decoration: none;
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 275px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  margin: 15px 0;
 }
 
-a:link, a:visited {
-    color: #3E4365;
+.card:hover{
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  transition: 0.75s;
 }
 
-ul:not(.ingredients) li {
-    list-style: none;
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2px 16px;
+  height: 175px;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+button {
+  color: #3E4365;
+  background-color: #9FA4C4;
+  border-radius: 3px;
+  padding: 4px 8px;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #3E4365;
+  color: #9FA4C4;
+}
+
+.brief {
+  padding-top: 15px;
+  height: 125px;
+}
+
+.brief span {
+  font-size: 13px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
 }
