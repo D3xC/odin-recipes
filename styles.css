@@ -7,7 +7,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    /* background-color: #9FA4C4; */
     color: #3E4365;
     margin: 0 auto;
 }
@@ -37,7 +36,6 @@ section {
   justify-content: space-between;
   flex-wrap: wrap;
   height: 75vh;
-  /* padding: 75px 0; */
 }
 
 .card {
@@ -70,21 +68,30 @@ img {
   height: 175px;
 }
 
-img {
+.recipe img {
   border-radius: 5px 5px 0 0;
 }
 
-button {
-  color: #3E4365;
-  background-color: #9FA4C4;
+.description img {
+  max-width: 25%;
+  height: auto;
+}
+
+button, button a {
+  color: #2F324C;
+  background-color: #747BAA;
   border-radius: 3px;
   padding: 4px 8px;
   font-size: 1em;
 }
 
-button:hover {
-  background-color: #3E4365;
+button:hover, button a:hover {
+  background-color: #2F324C;
   color: #9FA4C4;
+}
+
+button a {
+  text-decoration: none;
 }
 
 .brief {
@@ -98,5 +105,5 @@ button:hover {
 
 .links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }

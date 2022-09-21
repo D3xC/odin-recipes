@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: #747BAA;
+  margin: 0 auto;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+  height: 100vh;
+}
+
+header {
+  margin: 61.299px auto;
+  height: 10%;
+}
+
+header h1 {
+  text-align: center;
+  font-family: 'Combo', cursive;
+  font-size: 64px;
+  color: #3E4365;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+section.description {
+  padding: 50px 0;
+}
+
+div.image {
+  align-self: center;
+}
+
+div.image, div.ingredients {
+  width: 33%;
+}
+
+div.description, div.steps {
+  width: 62%;
+}
+
+div.description {
+  display: flex;
+  flex-direction: column;
+}
+
+div.description p {
+  padding: 5px 0;
+}
+
+div.image img {
+  width: 300px;
+  height: auto;
+}
+
+
